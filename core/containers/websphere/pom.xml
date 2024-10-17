@@ -30,35 +30,35 @@
 
   <build>
     <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-dependency-plugin</artifactId>
-        <executions>
-          <execution>
-            <phase>generate-test-resources</phase>
-            <goals>
-              <goal>copy</goal>
-            </goals>
-            <configuration>
-              <artifactItems>
-                <artifactItem>
-                  <groupId>org.codehaus.cargo</groupId>
-                  <artifactId>simple-war</artifactId>
-                  <type>war</type>
-                  <destFileName>simple-war.war</destFileName>
-                </artifactItem>
-                <artifactItem>
-                  <groupId>org.codehaus.cargo</groupId>
-                  <artifactId>simple-ear</artifactId>
-                  <type>ear</type>
-                  <destFileName>simple-ear.ear</destFileName>
-                </artifactItem>
-              </artifactItems>
-              <outputDirectory>${project.build.directory}/test-artifacts</outputDirectory>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
+<!--      <plugin>-->
+<!--        <groupId>org.apache.maven.plugins</groupId>-->
+<!--        <artifactId>maven-dependency-plugin</artifactId>-->
+<!--        <executions>-->
+<!--          <execution>-->
+<!--            <phase>generate-test-resources</phase>-->
+<!--            <goals>-->
+<!--              <goal>copy</goal>-->
+<!--            </goals>-->
+<!--            <configuration>-->
+<!--              <artifactItems>-->
+<!--                <artifactItem>-->
+<!--                  <groupId>org.codehaus.cargo</groupId>-->
+<!--                  <artifactId>simple-war</artifactId>-->
+<!--                  <type>war</type>-->
+<!--                  <destFileName>simple-war.war</destFileName>-->
+<!--                </artifactItem>-->
+<!--                <artifactItem>-->
+<!--                  <groupId>org.codehaus.cargo</groupId>-->
+<!--                  <artifactId>simple-ear</artifactId>-->
+<!--                  <type>ear</type>-->
+<!--                  <destFileName>simple-ear.ear</destFileName>-->
+<!--                </artifactItem>-->
+<!--              </artifactItems>-->
+<!--              <outputDirectory>${project.build.directory}/test-artifacts</outputDirectory>-->
+<!--            </configuration>-->
+<!--          </execution>-->
+<!--        </executions>-->
+<!--      </plugin>-->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>

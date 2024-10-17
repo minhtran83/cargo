@@ -50,8 +50,8 @@
     <module>tools</module>
     <module>containers</module>
     <module>uberjar</module>
-    <module>samples</module>
-    <module>documentation</module>
+<!--    <module>samples</module>-->
+<!--    <module>documentation</module>-->
   </modules>
 
   <build>

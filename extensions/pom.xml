@@ -37,8 +37,8 @@
   </dependencies>
 
   <modules>
-    <module>ant</module>
-    <module>daemon</module>
+<!--    <module>ant</module>-->
+<!--    <module>daemon</module>-->
     <module>maven3</module>
   </modules>
 

@@ -30,6 +30,6 @@
   <modules>
     <module>plugin</module>
     <module>archetypes</module>
-    <module>samples</module>
+<!--    <module>samples</module>-->
   </modules>
 </project>
