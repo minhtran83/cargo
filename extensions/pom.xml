@@ -38,7 +38,7 @@
 
   <modules>
 <!--    <module>ant</module>-->
-<!--    <module>daemon</module>-->
+    <module>daemon</module>
     <module>maven3</module>
   </modules>
 

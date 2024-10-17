@@ -30,6 +30,6 @@
   <modules>
     <module>client</module>
     <module>webapp</module>
-    <module>itests</module>
+<!--    <module>itests</module>-->
   </modules>
 </project>
