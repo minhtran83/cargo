@@ -394,6 +394,7 @@ public abstract class AbstractInstalledLocalContainer extends AbstractLocalConta
                 {
                     for (String line = br.readLine(); line != null; line = br.readLine())
                     {
+                        getLogger().info(line, this.getClass().getName());
                         if (line.startsWith("java version \"")
                             || line.startsWith("openjdk version \""))
                         {
